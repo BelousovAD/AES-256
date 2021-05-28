@@ -1,7 +1,7 @@
 #pragma once
 #include <cmath>
 
-class byte {//Байт в поле Галуа
+class byte {
 	using uchar = unsigned char;
 	uchar pow(uchar n, uchar k);
 
@@ -15,7 +15,6 @@ public:
 	uchar first();
 	uchar second();
 
-	//математика в поле галуа
 	byte operator+(const byte a);
 
 	byte operator^(const byte a);

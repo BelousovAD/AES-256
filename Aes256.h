@@ -7,7 +7,7 @@
 #include "Byte.h"
 
 class Aes256 {
-	static const int nb = 4, nk = 8, nr = 14;//константы для aes256 4 4 10
+	static const int nb = 4, nk = 8, nr = 14;
 	static const std::vector <std::vector <byte>> Rcon, Sbox, InvSbox;
 
 	static byte sbyte(byte n);

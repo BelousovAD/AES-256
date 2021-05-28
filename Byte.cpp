@@ -26,7 +26,7 @@ uchar byte::first() {
 uchar byte::second() {
 	return n % 16;
 }
-//математика в поле галуа
+
 byte byte::operator+(const byte a) {
 	return n ^ a.n;
 }
